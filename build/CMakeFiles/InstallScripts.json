@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/williampark/Ask-for-Sharing-SLF/build/cmake_install.cmake",
+		"/Users/williampark/Ask-for-Sharing-SLF/build/tests/cmake_install.cmake",
+		"/Users/williampark/Ask-for-Sharing-SLF/build/perf/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

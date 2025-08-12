@@ -1,0 +1,6 @@
+{
+    "log":{"path":"simple_dblp.log", "level":"debug"},
+    "slf":{"thread_number":1, "graph_format":"grf", "max_log_results":2,
+           "search_results_limitation": 20, "search_time_limitation_seconds": 30,
+           "tasks":[{"query": "simple_dblp_8v.grf", "target": "data/target.graph"}]}
+}

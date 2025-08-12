@@ -1,0 +1,19 @@
+{
+    "log":{
+        "path":"slf.log",
+        "level":"info"
+    },
+    "slf":{
+        "thread_number":4,
+        "graph_format":"grf",
+        "max_log_results":5,
+        "search_results_limitation": 100000,
+        "search_time_limitation_seconds": 300,
+        "tasks":[
+            {
+                "query": "data/dblp_query.graph",
+                "target": "data/dblp_target.graph"
+            }
+        ]
+    }
+}

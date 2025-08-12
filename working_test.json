@@ -1,0 +1,11 @@
+{
+    "log":{"path":"working_test.log", "level":"info"},
+    "slf":{
+        "thread_number":2,
+        "graph_format":"grf", 
+        "max_log_results":5,
+        "search_results_limitation": 100,
+        "search_time_limitation_seconds": 60,
+        "tasks":[{"query": "data/query.graph", "target": "data/target.graph"}]
+    }
+}

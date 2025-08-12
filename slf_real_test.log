@@ -1,0 +1,10 @@
+[2025-08-08 12:07:01.695518][info]: main: log path [slf_real_test.log], log level [info].
+[2025-08-08 12:07:01.697228][error]: subgraph_isomorphism_base::read_graph: fail to read target graph from [/Users/williampark/desktop/dataset/dblp/target.graph].
+[2025-08-08 12:07:01.697244][error]: subgraph_isomorphism_base::prepare_function_framework: Failed to do [read_target_graph]
+[2025-08-08 12:07:01.697249][error]: subgraph_isomorphism_base::run: Failed to read query or/and target graph. This task is skip
+[2025-08-08 12:07:01.697749][error]: subgraph_isomorphism_base::read_graph: fail to read target graph from [/Users/williampark/desktop/dataset/dblp/target.graph].
+[2025-08-08 12:07:01.697757][error]: subgraph_isomorphism_base::prepare_function_framework: Failed to do [read_target_graph]
+[2025-08-08 12:07:01.697761][error]: subgraph_isomorphism_base::run: Failed to read query or/and target graph. This task is skip
+[2025-08-08 12:07:01.698112][error]: subgraph_isomorphism_base::read_graph: fail to read target graph from [/Users/williampark/desktop/dataset/dblp/target.graph].
+[2025-08-08 12:07:01.698126][error]: subgraph_isomorphism_base::prepare_function_framework: Failed to do [read_target_graph]
+[2025-08-08 12:07:01.698132][error]: subgraph_isomorphism_base::run: Failed to read query or/and target graph. This task is skip

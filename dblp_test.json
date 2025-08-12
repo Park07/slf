@@ -1,0 +1,20 @@
+{
+    "log":{"path":"dblp_test.log", "level":"info"},
+    "slf":{
+        "thread_number":4,
+        "graph_format":"grf", 
+        "max_log_results":3,
+        "search_results_limitation": 1000,
+        "search_time_limitation_seconds": 120,
+        "tasks":[
+            {
+                "query": "dblp_8v_dense.grf",
+                "target": "dblp_real_target.grf"
+            },
+            {
+                "query": "dblp_8v_sparse.grf", 
+                "target": "dblp_real_target.grf"
+            }
+        ]
+    }
+}

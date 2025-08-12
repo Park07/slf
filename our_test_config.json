@@ -1,0 +1,19 @@
+{
+    "log":{
+        "path":"slf.log",
+        "level":"debug"
+    },
+    "slf":{
+        "thread_number":4,
+        "graph_format":"grf",
+        "max_log_results":10,
+        "search_results_limitation": 0,
+        "search_time_limitation_seconds": 60,
+        "tasks":[
+            {
+                "query": "triangle_pattern.graph",
+                "target": "test_8v_target.graph"
+            }
+        ]
+    }
+}

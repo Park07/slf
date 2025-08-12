@@ -1,0 +1,6 @@
+{
+    "log":{"path":"test_4v.log", "level":"debug"},
+    "slf":{"thread_number":1, "graph_format":"grf", "max_log_results":5,
+           "search_results_limitation": 100, "search_time_limitation_seconds": 30,
+           "tasks":[{"query": "dblp_4v.grf", "target": "data/target.graph"}]}
+}

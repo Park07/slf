@@ -1,0 +1,11 @@
+{
+    "log":{"path":"small_test.log", "level":"debug"},
+    "slf":{
+        "thread_number":2,
+        "graph_format":"grf", 
+        "max_log_results":2,
+        "search_results_limitation": 10,
+        "search_time_limitation_seconds": 30,
+        "tasks":[{"query": "small_query.grf", "target": "small_target.grf"}]
+    }
+}

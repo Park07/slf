@@ -1,0 +1,19 @@
+[2025-08-12 15:54:12.523085][info]: main: log path [slf.log], log level [info].
+[2025-08-12 15:54:12.523856][error]: subgraph_isomorphism_base::read_graph: fail to read query graph from [dblp_query.graph].
+[2025-08-12 15:54:12.523866][error]: subgraph_isomorphism_base::prepare_function_framework: Failed to do [read_query_graph]
+[2025-08-12 15:54:12.523871][error]: subgraph_isomorphism_base::run: Failed to read query or/and target graph. This task is skip
+[2025-08-12 15:55:03.009492][info]: main: log path [slf.log], log level [info].
+[2025-08-12 15:55:03.010112][error]: subgraph_isomorphism_base::read_graph: fail to read query graph from [dblp_query.graph].
+[2025-08-12 15:55:03.010121][error]: subgraph_isomorphism_base::prepare_function_framework: Failed to do [read_query_graph]
+[2025-08-12 15:55:03.010126][error]: subgraph_isomorphism_base::run: Failed to read query or/and target graph. This task is skip
+[2025-08-12 15:56:43.302244][info]: main: log path [slf.log], log level [info].
+[2025-08-12 15:56:44.064742][info]: answer_taker::log_result: Solution [1]: [0->6] [1->8] [2->75] [3->4484] [4->16487] [5->16494] [6->20945] [7->15]
+[2025-08-12 15:56:44.064774][info]: answer_taker::log_result: Solution [2]: [0->6] [1->8] [2->75] [3->4484] [4->16487] [5->16494] [6->20945] [7->12218]
+[2025-08-12 15:56:44.064782][info]: answer_taker::log_result: Solution [3]: [0->6] [1->8] [2->75] [3->4484] [4->16487] [5->16494] [6->20945] [7->12222]
+[2025-08-12 15:56:44.064789][info]: answer_taker::log_result: Solution [4]: [0->6] [1->8] [2->75] [3->4484] [4->16487] [5->16494] [6->20945] [7->75395]
+[2025-08-12 15:56:44.064797][info]: answer_taker::log_result: Solution [5]: [0->6] [1->8] [2->75] [3->4484] [4->16487] [5->16494] [6->20945] [7->178149]
+[2025-08-12 15:56:44.079200][info]: subgraph_isomorphism_base::run: Task (query graph:[/Users/williampark/Ask-for-Sharing-SLF/data/dblp_query.graph] target graph:[/Users/williampark/Ask-for-Sharing-SLF/data/dblp_target.graph]) is finished. Use [4] thread(s). Find mapping number [100002]. Total Time cost: [84.624ms](w/o IO time).
+[2025-08-12 16:09:12.167132][info]: main: log path [slf.log], log level [info].
+[2025-08-12 16:09:12.167849][error]: subgraph_isomorphism_base::read_graph: fail to read query graph from [data/dblp_query.graph].
+[2025-08-12 16:09:12.167864][error]: subgraph_isomorphism_base::prepare_function_framework: Failed to do [read_query_graph]
+[2025-08-12 16:09:12.167873][error]: subgraph_isomorphism_base::run: Failed to read query or/and target graph. This task is skip
