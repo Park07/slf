@@ -104,3 +104,6 @@ data/test_runs/
 Makefile
 build/
 *.log
+build/
+*.o
+*.d
