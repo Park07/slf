@@ -1,0 +1,8 @@
+# Experiment artifacts
+experiments/logs/*.log
+experiments/configs/*.json
+experiments/queries/*.graph
+experiments/results/*.csv
+*.log
+data/experiment_*
+data/config_*experiment*
