@@ -1,2 +1,4 @@
 Makefile linguist-generated=true
 *.graph linguist-generated=true
+Makefile linguist-vendored=true
+*Makefile* linguist-vendored=true
