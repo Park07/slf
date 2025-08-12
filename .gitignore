@@ -6,3 +6,26 @@ experiments/results/*.csv
 *.log
 data/experiment_*
 data/config_*experiment*
+
+# Test run directories
+data/test_runs/
+
+# Individual test files (in case any leak out)
+data/full_test_*
+data/query_*
+data/config_*
+data/test_*
+*.log
+
+# Build artifacts
+build/
+Makefile
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
