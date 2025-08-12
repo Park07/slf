@@ -1,0 +1,19 @@
+{
+  "log": {
+    "path": "experiment_medium_sparse_2_query_sparse_16_10.graph.log",
+    "level": "info"
+  },
+  "slf": {
+    "thread_number": 2,
+    "graph_format": "grf",
+    "max_log_results": 0,
+    "search_results_limitation": 100000,
+    "search_time_limitation_seconds": 300,
+    "tasks": [
+      {
+        "query": "data/experiment_medium_sparse_query_sparse_16_10.graph",
+        "target": "data/dblp_target.graph"
+      }
+    ]
+  }
+}

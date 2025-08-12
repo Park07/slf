@@ -1,0 +1,19 @@
+{
+  "log": {
+    "path": "experiment_medium_dense_2_query_dense_16_100.graph.log",
+    "level": "info"
+  },
+  "slf": {
+    "thread_number": 2,
+    "graph_format": "grf",
+    "max_log_results": 0,
+    "search_results_limitation": 100000,
+    "search_time_limitation_seconds": 300,
+    "tasks": [
+      {
+        "query": "data/experiment_medium_dense_query_dense_16_100.graph",
+        "target": "data/dblp_target.graph"
+      }
+    ]
+  }
+}
