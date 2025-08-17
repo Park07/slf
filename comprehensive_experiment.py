@@ -47,7 +47,7 @@ def get_adaptive_config(vertices, edges):
     if "small" in category:
         return {
             "timeout": 300,      # 5 minutes
-            "limit": 100000,    # 1M mappings
+            "limit": 100000,    # 100k mappings
             "priority": "high"   # Run these first
         }
     elif "medium" in category:
@@ -59,7 +59,7 @@ def get_adaptive_config(vertices, edges):
     else:  # large
         return {
             "timeout": 1800,     # 30 minutes
-            "limit": 100000,      # 10K mappings
+            "limit": 100000,      # 100K mappings
             "priority": "low"
         }
 

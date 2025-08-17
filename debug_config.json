@@ -1,0 +1,17 @@
+{
+  "log": {
+    "path": "debug_run.log",
+    "level": "info"
+  },
+  "slf": {
+    "thread_number": 1,
+    "search_results_limitation": 1000,
+    "search_time_limitation_seconds": 60,
+    "tasks": [
+      {
+        "query": "/Users/williampark/desktop/dataset/dblp/query_graph/query_dense_4_1.graph",
+        "target": "/Users/williampark/desktop/dataset/dblp/data_graph/dblp.graph"
+      }
+    ]
+  }
+}
