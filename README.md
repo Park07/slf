@@ -1,7 +1,7 @@
 # SLF
-SLF is a parallel algorithms for subgraph isomorphism.  
-**Paper name**: SLF: A passive parallelization of subgraph isomorphism  
-**Paper link**: https://www.sciencedirect.com/science/article/abs/pii/S0020025522015286  
+SLF is a parallel algorithms for subgraph isomorphism.
+**Paper name**: SLF: A passive parallelization of subgraph isomorphism
+**Paper link**: https://www.sciencedirect.com/science/article/abs/pii/S0020025522015286
 
 ## :warning:Warning  ##
 * If you want to re-produce the experiment in the paper, please checkout `master` branch and see the `README.md` at that branch.
@@ -11,7 +11,7 @@ SLF is a parallel algorithms for subgraph isomorphism.
 ## How To Use ##
 
 ### Dependency
-A compiler supports `C++17` is required.  
+A compiler supports `C++17` is required.
 `boost` is required.
 ```sh
 # In ubuntu, you can use this command to install boost.
@@ -21,9 +21,9 @@ sudo apt install libboost-all-dev # We get boost-1.71, but other versions should
 
 ### Build ###
 ```sh
-git clone https://github.com/Weissle/SLF.git && cd SLF 
-mkdir build && cd build 
-cmake -DCMAKE_BUILD_TYPE=RELEASE ../ 
+git clone https://github.com/Weissle/SLF.git && cd SLF
+mkdir build && cd build
+cmake -DCMAKE_BUILD_TYPE=RELEASE ../
 # build
 make -j
 # test
@@ -50,7 +50,7 @@ cat slf.log
         "search_results_limitation": 0,      // Stop searching when find {search_results_limitation} results. 0 means unlimited.
         "search_time_limitation_seconds": 0, // Stop searching when a task takes more than {search_time_limitation_seconds} seconds. 0 means unlimited.
         // The task we want to run.
-        "tasks":[         
+        "tasks":[
             {
                 "query": "data/query.graph",
                 "target": "data/target.graph"
@@ -58,10 +58,15 @@ cat slf.log
             {
                 "query": "data/si2_r001_m400.02.query.graph",
                 "target": "data/si2_r001_m400.02.target.graph"
-            }            
+            }
         ]
     }
 }
 
 ```
 
+-- update: october
+test synthetic first:
+- Erdős-Rényi,
+- Watts-Strogatz, and
+- Barabási-Albert to test performance on random, small-world, and scale-free networks, respectively
